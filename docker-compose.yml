@@ -1,0 +1,7 @@
+version: '3'
+services:
+  virtual-window-backend:
+    build: .
+    ports:
+      - 5000:5000
+      - 8765:8765
